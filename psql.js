@@ -16,11 +16,12 @@ router.get('/', async function(req, res) {
 		return new sqldown(myconn);
 	}});
 	
-	var db = new SqlDownDB('abb');
+	var db = new SqlDownDB('');
 
 	try { var existing = await db.get('fernando'); } catch(err) { var existing; }
 	
 	if ( existing ) {
+		console.log(existing);
 		await db.remove(existing);
 	}
 
