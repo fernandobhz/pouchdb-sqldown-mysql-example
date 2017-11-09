@@ -3,7 +3,7 @@ var router = express.Router();
 
 var fernando = {
 	_id: 'fernando',
-	idade: 310
+	idade: 31
 }
 
 router.get('/', async function(req, res) {
