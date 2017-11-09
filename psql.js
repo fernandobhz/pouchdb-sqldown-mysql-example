@@ -3,7 +3,8 @@ var router = express.Router();
 
 var fernando = {
 	_id: 'fernando',
-	idade: 31
+	idade: 31,
+	site: 'https://fernandobhz.github.io'
 }
 
 router.get('/', async function(req, res) {
