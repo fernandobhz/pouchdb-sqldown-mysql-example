@@ -30,6 +30,6 @@ How to use pouchdb with sqldown mysql
     	res.json(await db.get('fernando'));
     });
 	
-[http://fernandobhz.com.br](http://fernandobhz.com.br)
-[http://fernandobhz.com](http://fernandobhz.com)
-[http://fernandobhz.github.io](http://fernandobhz.github.io)
+[http://fernandobhz.com.br](http://fernandobhz.com.br) 
+[http://fernandobhz.com](http://fernandobhz.com) 
+[http://fernandobhz.github.io](http://fernandobhz.github.io) 
