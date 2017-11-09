@@ -1,6 +1,11 @@
 # pouchdb-sqldown-mysql-example
 How to use pouchdb with sqldown mysql
 
+	var fernando = {
+    	_id: 'fernando',
+    	idade: 310
+    }
+	
     router.get('/', async function(req, res) {
     	//SELECT ID, CONVERT(`key` USING utf8), CONVERT(value USING utf8) FROM msch.sqldown order by 1 desc
     	var myconn = 'mysql://root:Abc741963.@localhost/msch';
@@ -24,3 +29,7 @@ How to use pouchdb with sqldown mysql
     
     	res.json(await db.get('fernando'));
     });
+	
+[http://fernandobhz.com.br](http://fernandobhz.com.br)
+[http://fernandobhz.com](http://fernandobhz.com)
+[http://fernandobhz.github.io](http://fernandobhz.github.io)
